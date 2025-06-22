@@ -3,7 +3,7 @@ body{
     color: white;
     font-family: Arial, sans-serif; 
     padding: 20px;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     display: grid;
     place-items: center;
@@ -34,4 +34,7 @@ body{
 }
 .ball5{
     background-color: rgb(69, 109, 109);
+}
+.ball6{
+    background-color: rgb(109, 69, 69);
 }
