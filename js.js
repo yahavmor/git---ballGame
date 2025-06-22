@@ -19,6 +19,7 @@ function onBallClick(elBall){
 
     elBall.querySelector('span').innerText = `${newWidth+newHeight}`;
     elBall.style.backgroundColor = getRandomColor();
+<<<<<<< HEAD
 }
 
 function changeOthersColors(thirdBall){
@@ -28,6 +29,8 @@ function changeOthersColors(thirdBall){
             onBallClick(elBalls[i])
         } 
 }
+=======
+>>>>>>> 07b53dbc116a76f16597d98b3f13e907e2dc63c8
 
 }
 
