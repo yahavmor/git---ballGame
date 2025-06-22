@@ -28,7 +28,6 @@ function changeOthersColors(thirdBall){
             onBallClick(elBalls[i])
         } 
 }
-
 }
 
 
