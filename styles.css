@@ -5,26 +5,27 @@ body{
     padding: 20px;
     font-size: 22px;
     font-weight: bold;
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 .ball{
     display: grid;
     place-items: center;
     width: 50px;
     height: 50px;
-    background-color: red;
     border-radius: 50%;
     cursor: pointer;
-    margin:  auto; 
+    margin:  auto;  
     transition: .3s ease-in-out;
+    padding: 20px;
+}
+.ball1{
+    background-color: red;
 }
 .ball2{
-    display: grid;
-    place-items: center;
-    width: 50px;
-    height: 50px;
     background-color: blue;
-    border-radius: 50%;
-    cursor: pointer;
-    margin:  auto; 
-    transition: .3s ease-in-out;
+}
+.ball3{
+    background-color: green;
 }

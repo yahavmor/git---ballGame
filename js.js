@@ -19,6 +19,17 @@ function onBallClick(elBall){
 
     elBall.querySelector('span').innerText = `${newWidth+newHeight}`;
     elBall.style.backgroundColor = getRandomColor();
+}
+
+function changeOthersColors(thirdBall){
+    const elBalls = document.querySelectorAll('.ball');
+    for(var i = 0; i < elBalls.length; i++) {
+        if(elBalls[i] !== thirdBall){
+            onBallClick(elBalls[i])
+        } 
+}
 
 }
+
+
 
